@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('inicial');
+});
+
+Route::get('/equipe', function () {
+    return view('equipe');
+});
+
+Route::get('/hotsite', function () {
+    return view('hotsite');
 });

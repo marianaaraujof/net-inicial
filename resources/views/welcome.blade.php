@@ -87,7 +87,7 @@
                     <a href="/equipe">Equipe</a>
                     <a href="/hotsite">Hotsite</a>
                     <a href="/qualidade">Manual de Qualidade</a>
-                    <a href="/nprojetos">Projetos</a
+                    <a href="/projetos">Projetos</a
                 </div>
             </div>
         </div>

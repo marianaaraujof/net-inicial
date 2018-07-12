@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Escola de Programação</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -79,15 +79,15 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Escola de programação do LAIS
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="/quemsomos">Quem somos</a>
+                    <a href="/equipe">Equipe</a>
+                    <a href="/hotsite">Hotsite</a>
+                    <a href="/qualidade">Manual de Qualidade</a>
+                    <a href="/nprojetos">Projetos</a
                 </div>
             </div>
         </div>

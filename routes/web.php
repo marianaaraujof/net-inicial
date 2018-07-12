@@ -14,3 +14,23 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/quemsomos', function () {
+    return view('inicial');
+});
+
+Route::get('/equipe', function () {
+    return view('equipe');
+});
+
+Route::get('/hotsite', function () {
+    return view('hotsite');
+});
+
+Route::get('/qualidade', function () {
+    return view('manualdequalidade');
+});
+
+Route::get('/projetos', function () {
+    return view('projetos');
+});

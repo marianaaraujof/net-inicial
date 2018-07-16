@@ -1,6 +1,27 @@
 @extends('templates.template1')
 @section('eplais')
-
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="/">Início</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="/quemsomos">Quem Somos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/equipe">Equipe</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/projetos">Projetos</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" href="/qualidade">Manual de Qualidade</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" href="/cursos">Cursos</a>
+    </li>
+  </ul>
+</nav>
 <h1>Quem somos?</h1>
 <p>A Escola de Programação do Laboratório de Inovação Tecnologica em Saúde - LAIS,
 da Universidade Federal do Rio Grande do Norte - UFRN, implementou ações educativas para a formação tecnológica,

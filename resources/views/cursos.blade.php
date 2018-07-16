@@ -6,19 +6,19 @@
       <a class="nav-link" href="/">Início</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/inicial">Quem Somos</a>
+      <a class="nav-link" href="/quemsomos">Quem Somos</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="/equipe">Equipe</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="/projetos">Projetos</a>
+      <a class="nav-link" href="/projetos">Projetos</a>
     </li>
 	<li class="nav-item">
       <a class="nav-link" href="/qualidade">Manual de Qualidade</a>
     </li>
 	<li class="nav-item">
-      <a class="nav-link" href="/cursos">Cursos</a>
+      <a class="nav-link active" href="/cursos">Cursos</a>
     </li>
   </ul>
 </nav>
@@ -27,15 +27,8 @@
  			<div class="col-md-4">
  			</div>
  			<div class="col-md-4">
- 				<h1 class="text-center">Projetos</h1>   
-                </br>
-                <h3> Zeus </h3>
-                </br>
-                <h3> Hera </h3>
-                </br>
-                <h3> Tasks </h3>
-                </br>
-             </div>
+ 				<h1 class="text-center">Cursos</h1>
+            </div>
         </div>
 </div>
 

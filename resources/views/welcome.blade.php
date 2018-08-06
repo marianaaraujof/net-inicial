@@ -86,7 +86,7 @@
                     <a href="/quemsomos">Quem somos</a>
                     <a href="/equipe">Equipe</a>
                     <a href="/projetos">Projetos</a>
-                    <a href="/qualidade">Manual de Qualidade</a>
+                     <!-- <a href="/qualidade">Manual de Qualidade</a> -->
                     <a href="/cursos">Cursos</a>
                 </div>
             </div>

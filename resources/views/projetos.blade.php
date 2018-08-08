@@ -15,9 +15,6 @@
       <a class="nav-link active" href="/projetos">Projetos</a>
     </li>
 	<li class="nav-item">
-      <a class="nav-link" href="/qualidade">Manual de Qualidade</a>
-    </li>
-	<li class="nav-item">
       <a class="nav-link" href="/cursos">Cursos</a>
     </li>
   </ul>

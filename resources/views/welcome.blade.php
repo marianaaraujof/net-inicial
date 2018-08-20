@@ -78,6 +78,8 @@
                     <a href="/cursos">Cursos</a>
                 </div>
             </div>
+            <video width="660" height="420" src="{{asset('video/EscolaDeProgramacao.mp4')}}" controls>
+            </video>
         </div>
     </body>
 </html>

@@ -15,22 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/quemsomos', function () {
-    return view('inicial');
-});
-
 Route::get('/equipe', function () {
     return view('equipe');
 });
 
 Route::get('/projetos', function () {
     return view('projetos');
-});
-
-Route::get('/qualidade', function () {
-    return view('manualdequalidade');
-});
-
-Route::get('/cursos', function () {
-    return view('cursos');
 });

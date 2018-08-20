@@ -1,0 +1,11 @@
+.nav-estilo {
+    width: 112.5px;
+    padding-right: 55px;
+    padding-left: 55px;
+    font-size: 25px;
+    font-weight: 1000;
+    margin-right: 100px;
+}
+html, body {
+    font-family: 'roboto', sans-serif;
+}

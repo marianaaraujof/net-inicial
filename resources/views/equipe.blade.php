@@ -1,6 +1,6 @@
-
-@extends('templates.template1')
-@section('eplais')
+@extends('templates/layout')
+@section('cfg_title_path_0', 'Equipe')
+@section('cfg_section_geral')
 
 <div class="container-fluid">    
  		<!-- <div class="row"> 

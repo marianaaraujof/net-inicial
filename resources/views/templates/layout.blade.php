@@ -5,28 +5,13 @@
    </head>
   <body>
 
+    @include('templates/menu-branco')
 
-    <!-- <div id="content-stage"> -->
+    <section id="box-geral">
 
-     
-          @include('templates/menu-branco')
-      
-           
-      
-                <!-- @yield('cfg_title_section') -->
-                <section id="box-geral">
+      @yield('cfg_section_geral')
 
-                    @yield('cfg_section_geral')
-
-                </section>
-
-              
-
-        </div>
-
-      <!-- </div> -->
-
-    <!-- </div> -->
+    </section>
 
   <div id="mask"> </div>
   </body>

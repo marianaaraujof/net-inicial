@@ -3,16 +3,13 @@
 @section('cfg_section_geral')
 
 <div class="container-fluid">    
- 		<!-- <div class="row"> 
- 			<div class="col-md-4">-->
+
  			</div>
- 		<!--	<div class="col-md-4"> -->
  				<h1 class="text-center"><b>Equipe</b></h1>
  				<br />
                 <br />
                 <br />
  				<h2 class="text-center"><b>Orientadores</b></h2> 
-        <!--    <div class="col-md-2"> -->
                 <br />
                     <h3 class="text-center">Pierre Freire</h3> 
                      <!-- Foto e contato de Pierre -->

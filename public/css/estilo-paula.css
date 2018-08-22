@@ -8,12 +8,30 @@
     left: 15%;*/
     width: 70%; 
 }
-.main-header h1{
-    font-family: 'roboto', sans-serif;
+#main-header{
+    font-family: 'roboto', sans-serif, white;   
+    text-align: center;
 }
 
-.bg img {
-background-image: url(/imgs/Nuvem_dp_bg.svg);
+
+#welcome {
+    background-color: black;
+    background-image: url("/imgs/Nuvem_inicio_bg.svg");
+    /*background-image: url("/imgs/Estrelas_bg.svg");*/
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 0;
+    background-attachment: fixed;
+    background-size: 130%;
+
+}
+#frase {
+    text-align: left;
+}
+
+
+.bg-estrelas {
+background-image: url("/imgs/Estrelas_bg.svg");
 background-size: 100%;
 margin: 10%;
 }
@@ -22,3 +40,30 @@ h1, h2, h3 {
     text-align: center;
 }
 
+/*.bg-cor, .bg-estrelas {
+    display: block;
+    line-height: 100px;
+    position: absolute;
+    text-align: center;
+    width: 100px;
+}
+
+.bg-cor {
+    background: black;
+    z-index: 0;
+    display: block;
+}
+.bg-estrelas{
+    background-image: url(/imgs/Estrelas_bg.svg); 
+    z-index: 1;
+    opacity:0.6;
+    display: block;
+}
+
+#equipe {
+    background-image: url("/imgs/Nuvem_dp_bg.svg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    margin-left: 25%;
+}
+*/

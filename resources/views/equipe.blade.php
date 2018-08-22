@@ -2,6 +2,7 @@
 @section('cfg_title_path_0', 'Equipe')
 @section('cfg_section_geral')
 
+<body>
 <div class="container-fluid">    
  		<!-- <div class="row"> 
  			<div class="col-md-4">-->
@@ -61,6 +62,6 @@
  			</div>
  		</div>
  	</div>
-
+</body>
 @endsection 
 

@@ -9,6 +9,92 @@ html, body {
     padding-right: 55px;
     padding-left: 55px;
     font-size: 25px;
-    font-weight: 1000;
+    font-family: 'roboto', sans-serif;
+    font-weight: lighter;
     margin-right: 100px;
+}
+.card {
+    margin-left: 15%;
+    margin-bottom: 50px;
+    width: 50%;
+    border-style: none;
+    display: inline-block;
+}
+.card-img {
+    height: 225px;
+    width: 20%;
+    object-fit: cover;
+
+}
+.left {
+    float: left;
+    /*border: 3px solid #73AD21;*/
+    padding-right: 6%;
+}
+.clearfix {
+    overflow: auto;
+}
+.btn-secondary {
+    background-color: rgb(185, 189, 192);
+    border: rgb(185, 189, 192);
+    color: black;
+    font-family: 'roboto', sans-serif;
+    font-weight: lighter;
+}
+.btn-light {
+    background-color: #FFFFFF;
+    border: #FFFFFF;
+    font-family: 'roboto', sans-serif;
+    font-weight: lighter;
+}
+.card-text {
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.img-box-atuacao {
+    height: 20px;
+    width: 20px;
+}
+.card-title {
+    font-family: 'roboto',sans-serif;
+    font-weight: medium;
+    font-size: 45px;
+}
+.title-equipe {
+    margin-left: 15%;
+    margin-top: 180px;
+    margin-bottom: 40px;
+    font-family: 'roboto',sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+
+}
+.text-equipe {
+    margin-left: 15%;
+    margin-bottom: 160px;
+    margin-right:15%;
+    font-family: 'roboto',sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+.footer-black {
+    background-color: black;
+    background-image: url('/imgs/Estrelas_bg.svg');
+    height: 220px;
+}
+.footer-text {
+    font-family: 'roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    padding-top: 101px;
+}
+.logos {
+    height: 30px;
+    margin-top:98px;
+    margin-left: 15px;
+}
+.cont-1 {
+    max-width: 70%;
 }

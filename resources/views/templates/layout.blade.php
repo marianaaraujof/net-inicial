@@ -12,7 +12,7 @@
       @yield('cfg_section_geral')
 
     </section>
-
+    @include('templates/footer')
   <div id="mask"> </div>
   </body>
 </html>

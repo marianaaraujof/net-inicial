@@ -4,9 +4,9 @@
        @include('templates/common-head')
    </head>
   <body>
-
+    <section id="menu">
     @include('templates/menu-branco')
-
+    </section>
     <section id="box-geral">
 
       @yield('cfg_section_geral')

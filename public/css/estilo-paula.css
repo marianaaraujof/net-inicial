@@ -2,44 +2,88 @@
     position: relative;
 }*/
 .box-video video{
+    
     margin-left: 15%;
     /*position: absolute;
     top: 100px;
     left: 15%;*/
     width: 70%; 
 }
+
+.box-video{
+    background-image: url("/imgs/nuvem_inicio_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10%;
+    background-position: 50% 0%
+}
+
 #main-header{
     font-family: 'roboto', sans-serif, white;   
-    text-align: center;
-}
-
-
-#welcome {
-    background-color: black;
-    background-image: url("/imgs/Nuvem_inicio_bg.svg");
-    /*background-image: url("/imgs/Estrelas_bg.svg");*/
-    background-repeat: no-repeat;
-    background-position: right top;
-    margin-right: 0;
-    background-attachment: fixed;
-    background-size: 130%;
-
-}
-#frase {
     text-align: left;
 }
 
 
-.bg-estrelas {
-background-image: url("/imgs/Estrelas_bg.svg");
-background-size: 100%;
-margin: 10%;
+#welcome {
+    /*background-color: black;
+    background-image: url("/imgs/Nuvem_inicio_bg.svg");
+    background-image: url("/imgs/Estrelas_bg.svg");*/
+    background-repeat: no-repeat;
+    /*background-position: right top;
+    margin-right: 0;*/
+
+    /*background-size: 130%; */
+/
+}
+.bgTerra{
+    margin-right:30%;
+    background-image: url("/imgs/Terra.svg"); 
+    width: 10%;
+}
+#frase {
+    font-size: 80px;
+    font-style: bold;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#frase2{
+    font-size: 80px;
+    text-align: right;
+    margin-top: 30%;
+    margin-right: 10%;
+}
+#frase3{
+    font-size: 80px;
+    font-style: bold;
+    text-align: right;
+    margin-right: 10%;
+}
+.box-logo img{
+    width: 15%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.bgCor{
+    background-color: black;
+    /*z-index: 0;*/
+    /*background-position: right top;*/
+    display: block;
+    /*background-attachment: fixed;*/
+}
+.bgEstrelas{
+    background-image: url("/imgs/estrelas_bg-08.png"); 
+    display: block;
 }
 
 h1, h2, h3 {
     text-align: center;
 }
-
+/*
+.bgFaixas{
+    background-image: url("/imgs/estrelas_bg-08.png"); 
+}
+*/
 /*.bg-cor, .bg-estrelas {
     display: block;
     line-height: 100px;

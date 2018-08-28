@@ -5,9 +5,10 @@
     padding-left: 55px;
     font-size: 25px;
     font-family: 'roboto', sans-serif;
-    font-weight: 300er;
+    font-weight: 300;
     margin-right: 100px;
 }
+
 .card {
     margin-left: 15%;
     margin-bottom: 50px;
@@ -101,6 +102,7 @@
     font-size: 23px;
     font-weight: 300;
     padding-top: 101px;
+    color: white;
 }
 .logos {
     height: 30px;
@@ -120,6 +122,10 @@
 }
 .box-projeto {
     box-shadow: 1px 1px 50px  #bbbaba;
+}
+.container-fluid-1 {
+    padding-left: 12%;
+    padding-right: 12%;
 }
 .box-geral-1 {
     background-image: url('/imgs/nuvem_dp_bg.png');

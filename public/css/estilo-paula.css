@@ -21,6 +21,7 @@
 #main-header{
     font-family: 'roboto', sans-serif, white;   
     text-align: left;
+    margin-top: 80px;
     /*faixas superiores*/
     /*background-image: url("/imgs/Faixas_coloridas.svg"); 
     background-repeat: no-repeat;

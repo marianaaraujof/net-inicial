@@ -7,7 +7,7 @@
     <section id="menu">
     @include('templates/menu-preto')
     </section>
-    <section id="box-geral">
+    <section class="FaixasNav" id="box-geral">
 
       @yield('cfg_section_geral')
 

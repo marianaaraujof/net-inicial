@@ -1,7 +1,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top mr-2" style="height: 120px; width:100%;">
         <a class="navbar-brand justify-content-start" href="#">
-           
+            <img src="{{ asset('imgs/Faixas_coloridas.svg') }}" alt="faixas">
         </a>
         <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

@@ -1,4 +1,4 @@
-@extends('templates/layout')
+@extends('templates/layoutWelcome')
 @section('cfg_title_path_0', 'Inicio')
 @section('cfg_section_geral')
 

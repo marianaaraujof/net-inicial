@@ -105,14 +105,13 @@ h1, h2, h3 {
     z-index: 1;
 }
 
-
-
-
-/*
-#equipe {
-    background-image: url("/imgs/Nuvem_dp_bg.svg");
-    background-repeat: no-repeat;
-    background-size: 150%;
-    margin-left: 25%;
+.nav-estiloWelcome {
+    color: white;
+    width: 112.5px;
+    padding-right: 55px;
+    padding-left: 55px;
+    font-size: 25px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+    margin-right: 100px;
 }
-*/

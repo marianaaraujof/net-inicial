@@ -46,7 +46,12 @@
     color: #585858;
     font-size: 30px;
     text-align: center;
+    margin: 0px !important;
 }
+.frases p {
+    margin: 20px !important;
+}
+
 #frase {
     font-family: 'roboto', sans-serif;
     color: white;
@@ -100,7 +105,7 @@ h1, h2, h3 {
 .bgFaixasDown{
     background-image: url("/imgs/Faixas_coloridas.svg"); 
     background-repeat: no-repeat;
-    background-size: 60px 1300px;
+    background-size: 60px 1370px;
     background-position: 200px 170px;
     z-index: 1;
 }

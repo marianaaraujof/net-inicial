@@ -15,7 +15,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 10%;
-    background-position: 50% 0%
 }
 
 #main-header{
@@ -38,9 +37,14 @@
 .bgTerra{
     margin-right:30%;
     background-image: url("/imgs/Terra.svg"); 
-    width: 10%;
+    background-repeat: no-repeat;
+    background-position-x: 40%;
+    width: 5%;
+    z-index: 2;
 }
 #frase {
+    font-family: 'roboto', sans-serif;
+    color: white;
     font-size: 80px;
     font-style: bold;
     text-align: left;
@@ -73,17 +77,21 @@
 }
 .bgEstrelas{
     background-image: url("/imgs/estrelas_bg-08.png"); 
-    display: block;
+    z-index: 0;
 }
 
 h1, h2, h3 {
     text-align: center;
 }
-/*
-.bgFaixas{
-    background-image: url("/imgs/estrelas_bg-08.png"); 
+
+#bgFaixas{
+    background-image: url("/imgs/Faixas_coloridas.svg"); 
+    background-repeat: no-repeat;
+    background-size: 4.5%;
+    background-position: 15% 44%;
+    z-index: 1;
 }
-*/
+
 /*.bg-cor, .bg-estrelas {
     display: block;
     line-height: 100px;

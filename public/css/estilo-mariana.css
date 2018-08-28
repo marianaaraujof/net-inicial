@@ -124,8 +124,11 @@
 .box-geral-1 {
     background-image: url('/imgs/nuvem_dp_bg.png');
     background-repeat: no-repeat;
+    padding: 0;
 }
 .box-geral-2 {
     background-color: #e6e6e6;
+    max-width: 1920px;
     width: 100%;
+    margin: 0px;
 }

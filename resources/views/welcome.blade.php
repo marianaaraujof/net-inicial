@@ -2,7 +2,7 @@
 @section('cfg_title_path_0', 'Inicio')
 @section('cfg_section_geral')
 
-<body id="welcome" class="bgCor bgEstrelas">
+<body class="bgCor bgEstrelas">
 <div class="bgFaixasDown">
     <div>
         <div id="main-header">
@@ -20,10 +20,18 @@
         </div>
     </div>
 
-    <div id="video" class="box-video">
+    <div id="video" class="box-video bgSombraFog">
         <video src="{{asset('video/EscolaDeProgramacao.mp4')}}" controls>
         </video>
     </div> 
+    <div id="welcome">
+        <div class="frases">
+        <p> "um pouquinho de texto" </p>
+        <p> "um pouquinho de texto" </p>
+        <p> "um pouquinho de texto" </p>
+        </div>
+    </div>
+
 </div>
 </body>
 @endsection

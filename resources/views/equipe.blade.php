@@ -200,7 +200,7 @@
                     <a href="mailto:matheus.oliveira@lais.huol.ufrn.br" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="matheus.oliveira@lais.huol.ufrn.br" ><img class="img-box-atuacao" src="{{ asset('imgs/email_icon.svg') }}"></a>
                     <br /> 
                     Graduando em Engenharia Biomédica (UFRN). 
-                    Bacharel em Ciências e Tecnologia com ênfase em Tecnologia Biomédica (UFRN). 
+                    Bacharel em Ciências e Tecnologia (UFRN). 
                     Pesquisador do Laboratório de Inovação Tecnológica em Saúde (LAIS) na base da escola de programação.
                     Cursando a especialização em Engenharia Clínica. 
                     Participante de projetos do LAIS na base de análise de cargas sobre um fixador externo articulado utilizado para recuperação de fraturas no cotovelo.

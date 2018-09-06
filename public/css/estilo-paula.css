@@ -9,7 +9,6 @@
     background-repeat: no-repeat;
     background-size: cover !important;
     margin-top: 10%;
-    z-index: 0;
 }
 .bgSombraFog {
     background-image: url("/imgs/Sombra_img.svg"); 
@@ -38,37 +37,40 @@
 
 #welcome {
     background-color: #ddd;
-    background-position: cover;
 }
-.frases{
-    font-family: 'roboto', sans-serif;
-
+.frasesInsp{
+    font-family: 'roboto light', sans-serif;
     color: #585858;
-    font-size: 30px;
-    text-align: center;
-    margin: 0px !important;
-}
-.frases p {
-    margin: 20px !important;
+    font-size: 16px;
+    text-align: left;
+    padding: 300px;
+    padding-top: 100px;
+
 }
 
 #frase {
     font-family: 'roboto', sans-serif;
     color: white;
-    font-size: 80px;
+    font-size: 500%;
     font-style: bold;
     text-align: left;
     margin-left: 10%;
     margin-top: 2%;
 }
 #frase2{
-    font-size: 80px;
+    font-size: 550%;
     text-align: right;
     margin-top: 30%;
     margin-right: 10%;
 }
 #frase3{
-    font-size: 80px;
+    font-size: 550%;
+    font-style: bold;
+    text-align: right;
+    margin-right: 10%;
+}
+#frase4{
+    font-size: 200%;
     font-style: bold;
     text-align: right;
     margin-right: 10%;
@@ -80,10 +82,10 @@
     margin-top: 5%;
 }
 .box-logo{
-    background-image: url("/imgs/Terra.svg"); 
+    background-image: url("/imgs/terra-06.png"); 
     background-repeat: no-repeat;
-    background-size: 3%;
-    background-position: 80% 100%;
+    background-size: 5%;
+    background-position: 100% 100%;
 }
 
 .bgCor{
@@ -95,7 +97,8 @@
 }
 .bgEstrelas{
     background-image: url("/imgs/estrelas_bg-08.png"); 
-    z-index: 0;
+    position: absolute;
+    z-index: 1;
 }
 
 h1, h2, h3 {
@@ -103,11 +106,21 @@ h1, h2, h3 {
 }
 
 .bgFaixasDown{
-    background-image: url("/imgs/Faixas_coloridas.svg"); 
+    background-image: url("/imgs/Faixas_coloridas.svg") ;
     background-repeat: no-repeat;
-    background-size: 60px 1370px;
-    background-position: 200px 170px;
-    z-index: 1;
+    background-size: 10% 18.5%;
+    background-position: 135px 500px;
+    z-index: 2;
+    position:relative;
+}
+
+.bgLua{
+    background-image:  url("/imgs/Faixas_coloridas.svg"), url("/imgs/estrelas_bg-08.png"); 
+    background-repeat:  no-repeat, no-repeat;
+    background-position: 135px 500px, auto;
+    background-size:  10% 18.5%, auto;
+ 
+
 }
 
 .nav-estiloWelcome {
@@ -128,3 +141,45 @@ h1, h2, h3 {
     background-position: 200px -580px;
     margin-top:0;
 }
+
+.autores{
+    text-align: right;
+    font-style: italic;
+    font-family: 'Roboto Thin';
+    margin-right: 100px;
+
+}
+
+.box-pbl{
+    width: 100%;
+    height: 800px;
+    background-color: #CCCCCC;
+    background-position: 200% 100%;
+    line-height: 100px;
+} 
+
+.pbl {
+    padding-top: 100px;
+    font-size: 80px;
+    color: #4D4D4D;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+
+}
+.flex-container {
+    display: flex;
+    padding-top: 150px;
+
+  }
+
+  .pblNumeros p{
+      font-size: 30px;
+      padding-left: 30px;
+      margin: 0;
+  }
+
+  .pblEtapas h3{
+      font-size: 20px;
+      margin: 10;
+  }

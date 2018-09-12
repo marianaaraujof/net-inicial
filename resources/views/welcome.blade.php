@@ -4,7 +4,7 @@
 
 <body class="bgCor bgEstrelas">
 <div class="bgFaixasDown">
-<div class="bgLua">
+<div class="bgLuaSombraFog">
     <div>
         <div id="main-header">
 
@@ -20,9 +20,10 @@
             </div>
         </div>
     </div>
-
-    <div id="video" class="box-video bgSombraFog">
+    
+    <div class="box-video">
         <video src="{{asset('video/EscolaDeProgramacao.mp4')}}" controls>
+        <div id="foguete"> </div>
         </video>
     </div> 
 </div>

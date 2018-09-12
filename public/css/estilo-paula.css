@@ -3,26 +3,25 @@
     margin-left: 15%;
     width: 70%; 
 }
+#foguete{
+    mask-image: url("/imgs/Foguete_img.svg");
+    mask-repeat: no-repeat;
+
+}
 
 .box-video{
     background-image: url("/imgs/nuvem_inicio_bg.png")!important;
     background-repeat: no-repeat;
     background-size: cover !important;
     margin-top: 10%;
-    z-index: 0;
 }
-.bgLua{
-    background-image: url("/imgs/lua_bg-06.png"); 
-    background-repeat:  no-repeat;
-    background-position: 0px 600px;
-    background-size: auto;
+.bgLuaSombraFog{
+    background-image:  url("/imgs/Sombra_img.svg"), url("/imgs/lua_bg-06.png"); 
+    background-repeat:  no-repeat, no-repeat;
+    background-position: 250px 1090px, 0px 550px;
+    background-size: 30%, auto;
 }
-.bgSombraFog {
-    background-image: url("/imgs/Sombra_img.svg"); 
-    background-repeat: no-repeat;
-    background-size:;
-    z-index: 1;
-}
+
 
 #main-header{
     font-family: 'roboto', sans-serif, white;   
@@ -76,14 +75,14 @@
 }
 .box-logo img{
     background-image: url("/imgs/EP_logo_01.svg"); 
-    width: 15%;
+    width: 13%;
     margin-left: 10%;
-    margin-top: 130px;
+    margin-top: 125px;
 }
 .box-logo{
-    background-image: url("/imgs/Terra.svg"); 
+    background-image: url("/imgs/terra-06.png"); 
     background-repeat: no-repeat;
-    background-size: 3%;
+    background-size: 4%;
     background-position: 80% 100%;
 }
 
@@ -107,7 +106,7 @@ h1, h2, h3 {
     background-image: url("/imgs/Faixas_coloridas.svg"); 
     background-repeat: no-repeat;
     background-size: 60px 1200px;
-    background-position: 200px 170px;
+    background-position: 200px 180px;
     z-index: 1;
 }
 
@@ -144,14 +143,15 @@ h1, h2, h3 {
     font-style: italic;
     font-family: 'Roboto Thin';
     margin-right: 100px;
+    padding-right: 30px;
 
 }
 
 .box-pbl{
-    width: 100%;
-    height: 800px;
+    width: 600px;
+    height: 850px;
     background-color: #CCCCCC;
-    background-position: 200% 100%;
+    background-position: 500px 600px;
     line-height: 100px;
 } 
 
@@ -172,14 +172,14 @@ h1, h2, h3 {
 
   .pblNumeros p{
       font-size: 30px;
-      padding-left: 30px;
-      margin: 0;
-      border-radius: 50px;
+      padding-left: 40px;
+      border-radius: 50%;
+      border: 1px;
   }
 
   .pblEtapas h3{
       font-size: 20px;
-      margin: 10;
+      margin: 5;
   }
 
 

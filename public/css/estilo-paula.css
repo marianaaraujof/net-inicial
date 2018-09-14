@@ -3,47 +3,62 @@
     margin-left: 15%;
     width: 70%; 
 }
+div#wrap {
+   margin: 0 auto;
+   width: 1200px;
+}
+/*
 #foguete{
     mask-image: url("/imgs/Foguete_img.svg");
     mask-repeat: no-repeat;
-
 }
-
-.box-video{
+*/
+.bgNuvem{
     background-image: url("/imgs/nuvem_inicio_bg.png")!important;
     background-repeat: no-repeat;
     background-size: cover !important;
     margin-top: 10%;
 }
-.bgLuaSombraFog{
-    background-image:  url("/imgs/Sombra_img.svg"), url("/imgs/lua_bg-06.png"); 
-    background-repeat:  no-repeat, no-repeat;
-    background-position: 250px 1090px, 0px 550px;
-    background-size: 30%, auto;
-}
 
+.bgLua{
+    background-image: url("/imgs/lua_bg-06.png"); 
+    background-repeat: no-repeat;
+    background-position: 0px 35%;
+    width: 100%;
+    height: auto;
+}
+.bgSombraFoguete{
+    background: url("/imgs/Sombra_img.svg") no-repeat;
+    background-position: 150px 770px;
+    background-size: 30%;
+
+}
+.bgFaixasDown{
+    background-image: url("/imgs/Faixas_coloridas.svg"); 
+    background-repeat: no-repeat;
+    background-size: 60px 1200px;
+    background-position: 200px 180px;
+}
+.FaixasNav{
+    background-image: url("/imgs/Faixas_coloridas.svg"); 
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: 200px -600px;
+}
 
 #main-header{
     font-family: 'roboto', sans-serif, white;   
     text-align: left;
     margin: 0;
-    /*faixas superiores*/
-    /*background-image: url("/imgs/Faixas_coloridas.svg"); 
-    background-repeat: no-repeat;
-    background-size: 60px 1200px;
-    background-position: 200px 30px;
-    .bgFaixasUp{
-    background-image: url("/imgs/Faixas_coloridas.svg"); 
-    background-repeat: no-repeat;
-    background-size: 4.5%;
-    background-position: 15% 5%;
-    z-index: 1;
-}*/
+}
+
+div.media-body{
+    width: 500px;
+    
 }
 
 #welcome {
     background-color: #ddd;
-    background-position: cover;
 }
 .frases{
     font-family: 'roboto', sans-serif;
@@ -62,13 +77,13 @@
     margin-top: 2%;
 }
 #frase2{
-    font-size: 80px;
+    font-size: 60px;
     text-align: right;
     margin-top: 30%;
     margin-right: 10%;
 }
 #frase3{
-    font-size: 80px;
+    font-size: 60px;
     font-style: bold;
     text-align: right;
     margin-right: 10%;
@@ -102,14 +117,6 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.bgFaixasDown{
-    background-image: url("/imgs/Faixas_coloridas.svg"); 
-    background-repeat: no-repeat;
-    background-size: 60px 1200px;
-    background-position: 200px 180px;
-    z-index: 1;
-}
-
 .frasesInsp{
     font-family: 'roboto light', sans-serif;
     color: #585858;
@@ -130,21 +137,13 @@ h1, h2, h3 {
     margin-right: 100px;
 }
 
-.FaixasNav{
-    background-image: url("/imgs/Faixas_coloridas.svg"); 
-    background-repeat: no-repeat;
-    background-size: 60px;
-    background-position: 200px -600px;
-    margin-top:0;
-}
 
 .autores{
     text-align: right;
     font-style: italic;
     font-family: 'Roboto Thin';
-    margin-right: 100px;
-    padding-right: 30px;
 
+    padding-right: 100px;
 }
 
 .box-pbl{
@@ -157,11 +156,11 @@ h1, h2, h3 {
 
 .pbl {
     padding-top: 100px;
-    font-size: 80px;
+    font-size: 60px;
     color: #4D4D4D;
     text-align: left;
     font-family: 'Roboto', sans-serif;
-    margin-left: 50px;
+    margin-left: 10px;
 
 }
 .flex-container {
@@ -181,14 +180,3 @@ h1, h2, h3 {
       font-size: 20px;
       margin: 5;
   }
-
-
-
-/*
-#equipe {
-    background-image: url("/imgs/Nuvem_dp_bg.svg");
-    background-repeat: no-repeat;
-    background-size: 150%;
-    margin-left: 25%;
-}
-*/

@@ -79,20 +79,18 @@ body {
     font-size: 25px;
 }
 .title-projetos {
-    margin-left: 15%;
-    margin-top: 180px;
+    margin-top: 250px;
     margin-bottom: 40px;
     font-family: 'roboto',sans-serif;
     font-weight: 500;
     font-size: 60px;
 }
 .text-projetos {
-    margin-left: 15%;
     margin-bottom: 160px;
     margin-right:15%;
     font-family: 'roboto',sans-serif;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 25px;
 }
 .footer-black {
     background-color: black;

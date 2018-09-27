@@ -1,0 +1,27 @@
+@media(max-width: 768px) {
+
+    .conteudoPrincipal-projetos {
+		flex-direction: column;
+	}
+
+	.conteudoPrincipal-projetos-link {
+		width: 100%;
+    }
+    
+    .container {
+		width: 85%;	
+	}
+
+	.subtitulo {
+		text-align: left;
+    }
+    
+    .conteudoEquipe {
+        flex-direction: column;
+    }
+
+    .conteudoEquipe-links {
+        flex-direction: column;
+    }
+
+}

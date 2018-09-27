@@ -25,3 +25,6 @@ Route::get('/projetos', function () {
 Route::get('/projetos-2', function () {
     return view('projetos-2');
 });
+Route::get('/equipe-2', function () {
+    return view('equipe-2');
+});

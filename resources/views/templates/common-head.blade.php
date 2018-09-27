@@ -29,9 +29,9 @@
       <link rel="stylesheet" type="text/css" href="{{ asset('css/estilo-equipe.css') }}">
       <link rel="stylesheet" type="text/css" href="{{ asset('css/estilo-paula.css') }}"> 
       <link rel="stylesheet" type="text/css" href="{{ asset('css/estilo-projeto.css') }}"> 
+      <link rel="stylesheet" type="text/css" href="{{ asset('css/mobile.css') }}"> 
       <link rel="stylesheet" type="text/css" href="/node_modules/selectric/public/selectric.css">
       <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
     
 
-</script>

@@ -19,18 +19,40 @@
 @media only screen and (min-width: 1200px) {
     
 }
-/* Sidebar/left column */
-.side {
+.conteudoEquipe {
+    display: flex;
+    width: 80%;
+}
+
+.conteudoEquipe-foto {
     flex: 30%;
-    /*background-image: url('/imgs/equipe/pierre_1.gif');
-    background-size: 250px 250px;
-    background-repeat:no-repeat;*/
     padding: 10px;
 }
 
-/* Main column */
-.main {
+.conteudoEquipe-informacoes {
     flex: 70%;
     padding: 10px;
+    margin-left: 10%;
+}
+
+.conteudoEquipe-nome{
+	font-family: 'roboto', sans-serif;
+	font-weight: medium;
+	font-size: 45px;
+	text-align: left;	
+}
+
+.conteudoEquipe-texto {
+    font-family: 'roboto',sans-serif;
+    font-weight: 300;
+	font-size: 15px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.conteudoEquipe-links {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
 }
 

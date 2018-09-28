@@ -26,6 +26,10 @@ body{
 	text-align: left;
 }
 
+ul {
+	list-style-type: none;
+}
+
 .text-projetos {
     margin-bottom: 160px;
     margin-right: 0;

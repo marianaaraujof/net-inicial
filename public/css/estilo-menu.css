@@ -1,0 +1,42 @@
+.menuPrincipal {
+    height: 120px; 
+    background-color: #f2f2f2; 
+    width: auto;
+}
+
+.menuPrincipal-container {
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    width: 94%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+.menuPrincipalContent-list {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 2;
+}
+
+.menuPrincipalContent-list-link {
+    display: flex;
+    width: 10%;
+}
+
+.menuPrincipalContent-list a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: gray;
+
+}
+
+@media(max-width: 768px) {
+
+    .menuPrincipalContent-list {
+        flex-direction: column;
+    }
+
+}

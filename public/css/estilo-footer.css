@@ -1,0 +1,38 @@
+.rodape {
+    background-color: black;
+    background-image: url('/imgs/estrelas_bg-08.png');
+    height: auto; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.rodape-container {
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    margin: 0 auto;
+    height: auto;
+    align-items: center;
+}
+
+.rodape-texto .subtitulo {
+    font-family: 'roboto', sans-serif;
+    font-weight: 100;
+    font-size: 23px;
+    color: white;
+}
+.rodape-texto{
+    flex-grow: 2;
+}
+
+.rodape-logos {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    flex-grow: 3;                                                                                                                                                                                                                                      ;
+}
+
+.logos {
+    height: 30px;
+    display: flex;
+}

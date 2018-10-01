@@ -9,7 +9,9 @@
     }
     
     .container {
-		width: 85%;	
+        width: 95%;	
+        margin: 0;
+        padding: 0;
 	}
 
 	.subtitulo {
@@ -18,10 +20,34 @@
     
     .conteudoEquipe {
         flex-direction: column;
+        margin: 2%;
     }
 
     .conteudoEquipe-links {
         flex-direction: column;
+    }
+
+    .rodape-container {
+        flex-direction: column;
+    }
+
+    .rodape-texto .subtitulo {
+        font-size: 15px;
+    }
+
+    .rodape-logos {
+        flex-direction: column;
+    }
+    .logos { 
+        margin: 5%;
+    }
+
+    .text-projetos {
+        font-size: 15px;
+    }
+
+    .conteudoEquipe-texto {
+        font-size: 15px;
     }
 
 }

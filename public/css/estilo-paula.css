@@ -1,4 +1,64 @@
+#main {
+    display: grid;
+    grid-template-areas: "header header" "article article" "aside aside" "footer footer";
+    grid-template-rows: 35vh 65vh 60vh 10vh;
+    color: #fff;
+    text-align: center;
+    margin-top: 120px;
+}
+.bgCor{
+    background-color: black;
+}
 
+.bgEstrelas{
+    background-image: url("/imgs/estrelas_bg-08.png"); 
+    z-index: 0;
+}
+
+.mainHeader {
+    grid-area: header;
+
+}
+
+.LogoEP-Header img{
+    background-image: url("/imgs/EP_logo_01.svg"), no-repeat; 
+    width: 100%;
+}
+
+.LogoEP-Header{
+    background-image: url("/imgs/terra-06.png"); 
+    background-repeat: no-repeat;
+}
+
+.mainArticle {
+    grid-area: article;
+
+}
+.mainAside {
+    grid-area: aside;
+    background: blue;
+}
+
+.textosArticle-Slogan {
+    font-family: 'roboto', sans-serif;
+    color: white;
+    font-size: 80px;
+    font-style: bold;
+
+}
+
+.textosArticle-Subtitulo{
+    font-size: 60px;
+    margin-right: 10%;
+}
+
+
+
+
+
+
+
+/*
 .box-video video{ 
     margin-left: 15%;
     width: 70%; 
@@ -7,12 +67,12 @@ div#wrap {
    margin: 0 auto;
    width: 1200px;
 }
-/*
+
 #foguete{
     mask-image: url("/imgs/Foguete_img.svg");
     mask-repeat: no-repeat;
 }
-*/
+
 .bgNuvem{
     background-image: url("/imgs/nuvem_inicio_bg.png")!important;
     background-repeat: no-repeat;
@@ -67,7 +127,7 @@ div.media-body{
     font-size: 30px;
     text-align: center;
 }
-#frase {
+#frasePrincipal {
     font-family: 'roboto', sans-serif;
     color: white;
     font-size: 80px;
@@ -100,19 +160,9 @@ div.media-body{
     background-size: 4%;
     background-position: 80% 100%;
 }
+*/
 
-.bgCor{
-    background-color: black;
-    /*z-index: 0;*/
-    /*background-position: right top;*/
-    display: block;
-    /*background-attachment: fixed;*/
-}
-.bgEstrelas{
-    background-image: url("/imgs/estrelas_bg-08.png"); 
-    z-index: 0;
-}
-
+/*
 h1, h2, h3 {
     text-align: center;
 }
@@ -180,3 +230,4 @@ h1, h2, h3 {
       font-size: 20px;
       margin: 5;
   }
+*/

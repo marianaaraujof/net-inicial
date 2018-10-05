@@ -25,6 +25,8 @@
 
     .conteudoEquipe-links {
         flex-direction: column;
+        height: 120px;
+        width: 100%;
     }
 
     .rodape-container {
@@ -49,5 +51,6 @@
     .conteudoEquipe-texto {
         font-size: 15px;
     }
+
 
 }

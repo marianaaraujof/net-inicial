@@ -9,7 +9,7 @@
     }
     
     .container {
-        width: 95%;	
+        width: 100%;	
         margin: 0;
         padding: 0;
 	}
@@ -20,9 +20,13 @@
     
     .conteudoEquipe {
         flex-direction: column;
-        margin: 2%;
+        align-items: center;
+        width: 100%;
     }
 
+    .conteudoEquipe-informacoes {
+        margin: 0;
+    }
     .conteudoEquipe-links {
         flex-direction: column;
         height: 120px;

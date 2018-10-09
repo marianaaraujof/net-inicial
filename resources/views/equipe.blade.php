@@ -17,7 +17,11 @@
         <!-- Informações de Pierre -->
         <div class="conteudoEquipe">
             <div class="conteudoEquipe-foto">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/pierre_1.gif') }}" alt="Foto de Pierre">
+                <picture>
+                    <source srcset="imgs/equipe/pierre-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/pierre-01.png">
+                    <img srcset="imgs/equipe/pierre-01.png" alt="Foto de Pierre">
+                </picture>
             </div>
             <div class="conteudoEquipe-informacoes">
                 <h4 class="conteudoEquipe-nome">Pierre Freire</h4>
@@ -37,7 +41,11 @@
         <!-- Informações de Danieli -->
         <div class="conteudoEquipe">
             <div class="conteudoEquipe-foto">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/pierre_1.gif') }}" alt="Foto de Danieli">
+                <picture>
+                    <source srcset="imgs/equipe/danieli-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/danieli-01.png">
+                    <img srcset="imgs/equipe/danieli-01.png" alt="Foto de Danieli">
+                </picture>
             </div>
             <div class="conteudoEquipe-informacoes">
                 <h4 class="conteudoEquipe-nome">Danieli Rabelo</h4>
@@ -54,7 +62,11 @@
         <!-- Informações de Aisha -->
         <div class="conteudoEquipe">
             <div class="conteudoEquipe-foto">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/pierre_1.gif') }}" alt="Foto de Aisha">
+                <picture>
+                    <source srcset="imgs/equipe/pierre-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/pierre-01.png">
+                    <img srcset="imgs/equipe/pierre-01.png" alt="Foto de Pierre">
+                </picture>
             </div>
             <div class="conteudoEquipe-informacoes">
                 <h4 class="conteudoEquipe-nome">Aisha Rabelo</h4>
@@ -72,7 +84,11 @@
         <!-- Informações de Deyvison -->
         <div class="conteudoEquipe">
             <div class="conteudoEquipe-foto">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/pierre_1.gif') }}" alt="Foto de Deyvison">
+                <picture>
+                    <source srcset="imgs/equipe/pierre-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/pierre-01.png">
+                    <img srcset="imgs/equipe/pierre-01.png" alt="Foto de Pierre">
+                </picture>
             </div>
             <div class="conteudoEquipe-informacoes">
                 <h4 class="conteudoEquipe-nome">Deyvison Silas</h4>
@@ -91,7 +107,11 @@
         <!-- Informações de Cleiton -->
         <div class="conteudoEquipe">
             <div class="conteudoEquipe-foto">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/pierre_1.gif') }}" alt="Foto de Cleiton">
+                <picture>
+                    <source srcset="imgs/equipe/cleiton-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/cleiton-01.png">
+                    <img srcset="imgs/equipe/cleiton-01.png" alt="Foto de Cleiton">
+                </picture>
             </div>
             <div class="conteudoEquipe-informacoes">
                 <h4 class="conteudoEquipe-nome">Cleiton Lima</h4>
@@ -111,7 +131,11 @@
         <!-- Informações de Gabriel -->
         <div class="conteudoEquipe">
             <div class="conteudoEquipe-foto">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/pierre_1.gif') }}" alt="Foto de Gabriel">
+                <picture>
+                    <source srcset="imgs/equipe/gabriel-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/gabriel-01.png">
+                    <img srcset="imgs/equipe/gabriel-01.png" alt="Foto de Gabriel">
+                </picture>
             </div>
             <div class="conteudoEquipe-informacoes">
                 <h4 class="conteudoEquipe-nome">Gabriel Machado</h4>
@@ -128,7 +152,11 @@
         <!-- Informações de Hercules -->
         <div class="conteudoEquipe">
             <div class="conteudoEquipe-foto">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/pierre_1.gif') }}" alt="Foto de Hercules">
+            <picture>
+                    <source srcset="imgs/equipe/hercules-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/hercules-01.png">
+                    <img srcset="imgs/equipe/hercules-01.png" alt="Foto de Hercules">
+                </picture>
             </div>
             <div class="conteudoEquipe-informacoes">
                 <h4 class="conteudoEquipe-nome">Hercules Pedrosa</h4>
@@ -146,7 +174,11 @@
         <!-- Informações de Luca -->
         <div class="conteudoEquipe">
             <div class="conteudoEquipe-foto">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/pierre_1.gif') }}" alt="Foto de Luca">
+            <picture>
+                    <source srcset="imgs/equipe/luca-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/luca-01.png">
+                    <img srcset="imgs/equipe/luca-01.png" alt="Foto de Luca">
+                </picture>
             </div>
             <div class="conteudoEquipe-informacoes">
                 <h4 class="conteudoEquipe-nome">Luca Pareja</h4>
@@ -163,7 +195,11 @@
         <!-- Informações de Mariana -->
         <div class="conteudoEquipe">
             <div class="conteudoEquipe-foto">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/pierre_1.gif') }}" alt="Foto de Mariana">
+            <picture>
+                    <source srcset="imgs/equipe/mariana-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/mariana-01.png">
+                    <img srcset="imgs/equipe/mariana-01.png" alt="Foto de Mariana">
+                </picture>
             </div>
             <div class="conteudoEquipe-informacoes">
                 <h4 class="conteudoEquipe-nome">Mariana Araújo</h4>
@@ -181,7 +217,11 @@
         <!-- Informações de Coutinho -->
         <div class="conteudoEquipe">
             <div class="conteudoEquipe-foto">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/pierre_1.gif') }}" alt="Foto de Coutinho">
+            <picture>
+                    <source srcset="imgs/equipe/coutinho-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/coutinho-01.png">
+                    <img srcset="imgs/equipe/coutinho-01.png" alt="Foto de Matheus Coutinho">
+                </picture>
             </div>
             <div class="conteudoEquipe-informacoes">
                 <h4 class="conteudoEquipe-nome">Matheus Coutinho</h4>
@@ -201,7 +241,11 @@
         <!-- Informações de Oliveira -->
         <div class="conteudoEquipe">
             <div class="conteudoEquipe-foto">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/pierre_1.gif') }}" alt="Foto de Oliveira">
+                <picture>
+                    <source srcset="imgs/equipe/oliveira-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/oliveira-01.png">
+                    <img srcset="imgs/equipe/oliveira-01.png" alt="Foto de Matheus Oliveira">
+                </picture>
             </div>
             <div class="conteudoEquipe-informacoes">
                 <h4 class="conteudoEquipe-nome">Matheus Oliveira</h4>
@@ -221,7 +265,11 @@
         <!-- Informações de Paula -->
         <div class="conteudoEquipe">
             <div class="conteudoEquipe-foto">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/pierre_1.gif') }}" alt="Foto de Paula">
+                <picture>
+                    <source srcset="imgs/equipe/paula-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/paula-01.png">
+                    <img srcset="imgs/equipe/paula-01.png" alt="Foto de Paula">
+                </picture>
             </div>
             <div class="conteudoEquipe-informacoes">
                 <h4 class="conteudoEquipe-nome">Paula Torres</h4>

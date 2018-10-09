@@ -1,7 +1,7 @@
 #main {
     display: grid;
-    grid-template-areas: "header header" "article article" "aside aside" "footer footer";
-    grid-template-rows: 35vh 65vh 60vh 10vh;
+    grid-template-areas: "header header" "article aside"  "footer footer";
+    grid-template-rows: 15vh 85vh 10vh;
     color: #fff;
     text-align: center;
     margin-top: 120px;
@@ -47,7 +47,7 @@
 
 }
 
-.textosArticle-Subtitulo{
+.textosAside-Subtitulo{
     font-size: 60px;
     margin-right: 10%;
 }

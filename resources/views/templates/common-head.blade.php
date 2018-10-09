@@ -26,12 +26,17 @@
      <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500" rel="stylesheet">
       <!-- link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"-->   
       <link rel="stylesheet" type="text/css" href="{{ asset('css/estilo-mariana.css') }}">
+<<<<<<< HEAD
 
       <link rel="stylesheet" type="text/css" href="{{ asset('css/flex.css') }}"> 
+=======
+      <link rel="stylesheet" type="text/css" href="{{ asset('css/estilo-equipe.css') }}">
+>>>>>>> 99027ea55c54ad2a122dc6375cca5f79656b9e37
       <link rel="stylesheet" type="text/css" href="{{ asset('css/estilo-paula.css') }}"> 
+      <link rel="stylesheet" type="text/css" href="{{ asset('css/estilo-projeto.css') }}"> 
+      <link rel="stylesheet" type="text/css" href="{{ asset('css/mobile.css') }}"> 
       <link rel="stylesheet" type="text/css" href="/node_modules/selectric/public/selectric.css">
       <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
     
 
-</script>

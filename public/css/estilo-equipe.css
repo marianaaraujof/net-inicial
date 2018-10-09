@@ -1,0 +1,58 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .row {   
+        flex-direction: column;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
+.conteudoEquipe {
+    display: flex;
+    width: 80%;
+}
+
+.conteudoEquipe-foto {
+    flex: 30%;
+    padding: 10px;
+}
+
+.conteudoEquipe-informacoes {
+    flex: 70%;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+.conteudoEquipe-nome{
+	font-family: 'roboto', sans-serif;
+	font-weight: medium;
+	font-size: 45px;
+	text-align: left;	
+}
+
+.conteudoEquipe-texto {
+    font-family: 'roboto',sans-serif;
+    font-weight: 300;
+	font-size: 15px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.conteudoEquipe-links {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+

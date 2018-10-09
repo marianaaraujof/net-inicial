@@ -20,16 +20,16 @@
             
             <h1 class="textosArticle-Slogan"> Do nada ao <br /> infinito! </h1>
 
-            <h1 class="textosArticle-Subtitulo"> De onde, </h1>
-            <h1 class="textosArticle-Subtitulo"> e para onde? <h1> 
-
         </div>
     </article>    
 
-
     <aside class="mainAside"> 
+        <div>
 
+            <h1 class="textosAside-Subtitulo"> De onde, </h1>
+            <h1 class="textosAside-Subtitulo"> e para onde? <h1> 
 
+        </div>
     </aside>
 
 </section>

@@ -1,5 +1,6 @@
 
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top mr-2" style="height: 120px; background-color: #f5f8fa; width:100%;">
+      <header>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top mr-2" style="height: 120px; background-color: #f5f8fa; width:100%;">
         <a class="navbar-brand justify-content-start" href="#">
             <img src="{{ asset('imgs/EP_logo_03.svg') }}" width="80" height="80" alt="logo_ep">
         </a>
@@ -20,3 +21,4 @@
         </ul>
         </div>
         </nav>
+</header>

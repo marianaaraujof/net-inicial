@@ -50,7 +50,7 @@
             <div class="conteudoEquipe-informacoes">
                 <h4 class="conteudoEquipe-nome">Danieli Rabelo</h4>
                 <div class="conteudoEquipe-links">
-                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Coordenação Pedagógica </a>
+                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Coordenação </a>
                 <a href="http://lattes.cnpq.br/7720315059620922" class="btn btn-secondary"><img class="img-box-atuacao" src="{{ asset('imgs/Lattes_logo.svg') }}">&nbsp Lattes/DanieliRabelo</a>
                 <a href="mailto:rabrlodanni@gmail.com" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="rabrlodanni@gmail.com" ><img class="img-box-atuacao" src="{{ asset('imgs/email_icon.svg') }}"></a>
                 </div>

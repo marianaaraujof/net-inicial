@@ -1,4 +1,4 @@
-<nav class="menuPrincipal">
+<nav class="menuPrincipal fixed-top">
 
     <div class="menuPrincipal-container">
 

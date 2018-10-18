@@ -3,7 +3,17 @@
 @section('cfg_section_geral')
 
 <section class="conteudoPrincipal">
+<!-- <script>
+    window.onscroll = function() {myFunction()};
 
+    function myFunction() {
+        if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 40) {
+            document.getElementById("colorchange").className = "corpreta fixed-top";
+        } else {
+            document.getElementById("colorchange").className = "";
+        }
+    }
+</script>-->
     <div class="container">
     
         <h1 class="subtitulo"> Equipe </h1>

@@ -1,4 +1,16 @@
-<nav class="menuPrincipal fixed-top">
+<nav class="menuPrincipal fixed-top" id="colorchange">
+<script>
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+        if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 40) {
+            document.getElementById("colorchange").className = "corpreta fixed-top";
+        } else {
+            document.getElementById("colorchange").className = "";
+        }
+    }
+</script>
+
 
     <div class="menuPrincipal-container">
 

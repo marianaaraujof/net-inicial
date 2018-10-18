@@ -2,6 +2,17 @@
 @section('cfg_title_path_0', 'Projetos')
 @section('cfg_section_geral')
 <main class="conteudoPrincipal">
+<!-- <script>
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 40) {
+            document.getElementById("colorchange").className = "corpreta fixed-top";
+        } else {
+            document.getElementById("colorchange").className = "";
+        }
+    }
+</script> -->
     <div class="container">
         <h1 class="subtitulo">Projetos</h2>
         <h3 class="text-projetos text-left"> Abaixo estão listados os projetos desenvolvidos pelos alunos da Escola de Programação do LAIS (Laboratório de Inovação Tecnológica em Saúde) até o presente momento.

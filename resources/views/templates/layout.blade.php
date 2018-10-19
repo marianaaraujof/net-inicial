@@ -5,7 +5,7 @@
    </head>
   <body>
     <section id="menu">
-    @include('templates/menu-branco')
+    @include('templates/menu-branco') 
     </section>
     <section id="box-geral">
 
@@ -13,6 +13,6 @@
 
     </section>
     @include('templates/footer')
-  <div id="mask"> </div>
+
   </body>
 </html>

@@ -2,28 +2,7 @@
 body {
     font-family: 'roboto', sans-serif;
 }
-.nav-estilo {
-    width: 112.5px;
-    padding-right: 55px;
-    padding-left: 55px;
-    font-size: 25px;
-    font-family: 'roboto', sans-serif;
-    font-weight: 300;
-    margin-right: 100px;
-}
 
-.card {
-    margin-left: 15%;
-    margin-bottom: 50px;
-    width: 50%;
-    border-style: none;
-    display: inline-block;
-}
-.card-img {
-    height: 225px;
-    width: 20%;
-    object-fit: cover;
-}
 .left {
     float: left;
     /*border: 3px solid #73AD21;*/
@@ -101,11 +80,11 @@ body {
     padding-top: 101px;
     color: white;
 }
-.logos {
+/*.logos {
     height: 30px;
     margin-top:98px;
     margin-left: 15px;
-}
+}*/
 .cont-1 {
     max-width: 70%;
 }

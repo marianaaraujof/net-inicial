@@ -1,44 +1,70 @@
 #main {
     display: grid;
-    grid-template-areas: "header header" "article aside"  "footer footer";
-    grid-template-rows: 15vh 85vh 10vh;
+    grid-template-areas: "header header" "article aside" "conteudo conteudo" "footer footer";
+    grid-template-rows: 15vh 120vh 250vh 10vh;
     color: #fff;
     text-align: center;
-    margin-top: 120px;
 }
-.bgCor{
+.bgCor {
     background-color: black;
 }
 
-.bgEstrelas{
+.bgEstrelas {
     background-image: url("/imgs/estrelas_bg-08.png"); 
     z-index: 0;
 }
 
+.bgLua {
+    background-image: url("/imgs/lua_bg-06.png");
+    background-repeat: no-repeat; 
+    background-position: 0 450px;
+}
+
 .mainHeader {
     grid-area: header;
-
 }
 
-.LogoEP-Header img{
+.LogoEP{
     background-image: url("/imgs/EP_logo_01.svg"), no-repeat; 
-    width: 100%;
+    width: 20%;
 }
 
-.LogoEP-Header{
-    background-image: url("/imgs/terra-06.png"); 
-    background-repeat: no-repeat;
+.mainHeader .ImgTerra{
+    size: 13%;
 }
+
+
+/*
+.bgFaixasArticle{
+    background-image: url("/imgs/Faixas_coloridas.svg"); 
+    background-repeat: no-repeat;
+    background-size: 60px 1200px;
+    background-position: 200px 180px;
+}
+*/
+.bgFaixasNav{
+    background-image: url("/imgs/Faixas_coloridas.svg"); 
+}
+
+
 
 .mainArticle {
     grid-area: article;
-
+    background-image: url("/imgs/Faixas_coloridas.svg"), no-repeat; 
+    background-position: 0 20%;
 }
+
+.mainArticle .textosArticle-Slogan{
+    font-size: 80px;
+    margin-left: 22%;
+}
+
 .mainAside {
     grid-area: aside;
-    background: blue;
+    background-image: url("/imgs/lua_bg-06.png"), no-repeat; 
 }
 
+/*
 .textosArticle-Slogan {
     font-family: 'roboto', sans-serif;
     color: white;
@@ -46,15 +72,17 @@
     font-style: bold;
 
 }
-
+*/
 .textosAside-Subtitulo{
     font-size: 60px;
     margin-right: 10%;
+    color: #000;
 }
 
-
-
-
+.mainContainer{
+    background-color: #CCCCCC;
+    width: 100%;
+}
 
 
 

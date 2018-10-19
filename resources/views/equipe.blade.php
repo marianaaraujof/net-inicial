@@ -1,265 +1,290 @@
 @extends('templates/layout')
 @section('cfg_title_path_0', 'Equipe')
 @section('cfg_section_geral')
-<div class="container-fluid box-geral-1">
+
+<section class="conteudoPrincipal">
+
+    <div class="container">
     
-    <div class="container-fluid-1"> 
- 	    <h1 class="title-equipe text-left"><b>Equipe</b></h1>
-        <h3 class="text-equipe text-left"> Esta é a equipe que, atualmente, compõe a Escola de Programação do LAIS. 
+        <h1 class="subtitulo"> Equipe </h1>
+        <h3 class="text-projetos"> Esta é a equipe que, atualmente, compõe a Escola de Programação do LAIS. 
         A estrutura da equipe é formada por um coordenador técnico, que auxilia os estudantes em técnicas e aperfeiçoamentos em desenvolvimento de sistemas, 
         uma coordenadora pedagógica, que gerencia a aplicação do método ABP dentro da Escola, bolsistas graduandos do curso de Design, 
         que auxiliam na interface de todos os produtos e bolsistas de diversos cursos da área tecnológica, 
         como Tecnologia da Informação, Ciências e Tecnologia, Engenharia Biomédica e Engenharia Mecânica que aprendem e desenvolvem sistemas. 
-        Toda a equipe trabalha em conjunto a fim de obter aprendizados mútuos e diversos.    </div>
-    
-    <div class="container-fluid-1">
-    <!-- Informações de Pierre -->
-        <div class="row">
-            <div class="side">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/pierre_1.gif') }}" alt="Foto de Pierre">
-                    <!--<picture>
-                        <source srcset="{{ asset('imgs/equipe/pierre_1.gif') }}" media="(min-width: 1000px)">
-                        <source srcset="{{ asset('imgs/equipe/pierre_2.gif') }}" media="(min-width: 800px)">
-                        <img srcset="{{ asset('imgs/equipe/pierre_3.gif') }}" alt="…">
-                    </picture>-->
+        Toda a equipe trabalha em conjunto a fim de obter aprendizados mútuos e diversos. </h3>
+
+        <!-- Informações de Pierre -->
+        <div class="conteudoEquipe">
+            <div class="conteudoEquipe-foto">
+                <picture>
+                    <source srcset="imgs/equipe/pierre-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/pierre-01.png">
+                    <img srcset="imgs/equipe/pierre-01.png" alt="Foto de Pierre">
+                </picture>
             </div>
-            <div class="main">
-                <h4 class="mt-0">Pierre Freire</h4>
+            <div class="conteudoEquipe-informacoes">
+                <h4 class="conteudoEquipe-nome">Pierre Freire</h4>
+                <div class="conteudoEquipe-links">
                 <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Coordenação </a>
                 <a href="https://github.com/pierrefreire" class="btn btn-secondary"><img class="img-box-atuacao" src="{{ asset('imgs/Git_logo.svg') }}">&nbsp Github/PierreFreire</a>
                 <a href="mailto:pierre.freire@lais.huol.ufrn.br" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="pierre.freire@lais.huol.ufrn.br" ><img class="img-box-atuacao" src="{{ asset('imgs/email_icon.svg') }}"></a>
-                <p class="texto-pessoa justify">Tecnólogo em Sistemas para Internet pela UNIVALI - Itajaí/SC, 
+                </div>
+                <div class="conteudoEquipe-texto">Tecnólogo em Sistemas para Internet pela UNIVALI - Itajaí/SC, 
                 é aluno de pós-graduação em Planejamento Estratégico em Comunicação pela UNP - Natal/RN. 
                 Atualmente é analista de sistemas da SEDIS/UFRN onde desenvolve aplicações na área de mobile e web. 
                 É apaixonado por tecnologia, usa Linux, Windows e Mac OS sem preconceitos. 
-                Produtor de conteúdo para internet e desenvolve aplicativos para iOS e Windows Phone.</p>
+                Produtor de conteúdo para internet e desenvolve aplicativos para iOS e Windows Phone.</div>
             </div>
         </div>
-        <!-- Informaoes de Danieli -->
-        <div class="row">
-            <div class="side">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/danieli_1.gif') }}" alt="Foto de Danieli">
-                    <!--<picture>
-                        <source srcset="{{ asset('imgs/equipe/pierre_1.gif') }}" media="(min-width: 1000px)">
-                        <source srcset="{{ asset('imgs/equipe/pierre_2.gif') }}" media="(min-width: 800px)">
-                        <img srcset="{{ asset('imgs/equipe/pierre_3.gif') }}" alt="…">
-                    </picture>-->
+
+        <!-- Informações de Danieli -->
+        <div class="conteudoEquipe">
+            <div class="conteudoEquipe-foto">
+                <picture>
+                    <source srcset="imgs/equipe/danieli-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/danieli-01.png">
+                    <img srcset="imgs/equipe/danieli-01.png" alt="Foto de Danieli">
+                </picture>
             </div>
-            <div class="main">
-                <h4 class="mt-0">Danieli Rabelo</h4>
-                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Coordenação Pedagógica</a>
+            <div class="conteudoEquipe-informacoes">
+                <h4 class="conteudoEquipe-nome">Danieli Rabelo</h4>
+                <div class="conteudoEquipe-links">
+                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Coordenação Pedagógica </a>
                 <a href="http://lattes.cnpq.br/7720315059620922" class="btn btn-secondary"><img class="img-box-atuacao" src="{{ asset('imgs/Lattes_logo.svg') }}">&nbsp Lattes/DanieliRabelo</a>
                 <a href="mailto:rabrlodanni@gmail.com" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="rabrlodanni@gmail.com" ><img class="img-box-atuacao" src="{{ asset('imgs/email_icon.svg') }}"></a>
-                <p class="texto-pessoa justify">Pesquisadora do Laboratório de Inovação Tecnológica em Saúde - LAIS/HUOL/UFRN. 
-                Membro do Grupo de Pesquisa em Data Mining da UFRN. Mestranda do Programa de Pós-Graduação em Inovação em Tecnologias Educacionais - UFRN</p>
+                </div>
+                <div class="conteudoEquipe-texto">Pesquisadora do Laboratório de Inovação Tecnológica em Saúde - LAIS/HUOL/UFRN. 
+                Membro do Grupo de Pesquisa em Data Mining da UFRN. Mestranda do Programa de Pós-Graduação em Inovação em Tecnologias Educacionais - UFRN</div>
             </div>
         </div>
-    </div>
-    <div class="box-geral-2">
-        <!-- Informacoes de Aisha -->
-        <div class="row">
-            <div class="side">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/aisha_1.gif') }}" alt="Foto de Aisha">
-                    <!--<picture>
-                        <source srcset="{{ asset('imgs/equipe/pierre_1.gif') }}" media="(min-width: 1000px)">
-                        <source srcset="{{ asset('imgs/equipe/pierre_2.gif') }}" media="(min-width: 800px)">
-                        <img srcset="{{ asset('imgs/equipe/pierre_3.gif') }}" alt="…">
-                    </picture>-->
+
+        <!-- Informações de Aisha -->
+        <div class="conteudoEquipe">
+            <div class="conteudoEquipe-foto">
+                <picture>
+                    <source srcset="imgs/equipe/pierre-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/pierre-01.png">
+                    <img srcset="imgs/equipe/pierre-01.png" alt="Foto de Pierre">
+                </picture>
             </div>
-            <div class="main">
-                <h4 class="mt-0">Aisha Rabelo</h4>
-                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Design</a>
+            <div class="conteudoEquipe-informacoes">
+                <h4 class="conteudoEquipe-nome">Aisha Rabelo</h4>
+                <div class="conteudoEquipe-links">
+                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Design </a>
                 <a href="http://lattes.cnpq.br/3125276410703049" class="btn btn-secondary"><img class="img-box-atuacao" src="{{ asset('imgs/Lattes_logo.svg') }}">&nbsp Lattes/AishaRabelo</a>
                 <a href="mailto:aisharabelo@hotmail.com" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="aisharabelo@hotmail.com" ><img class="img-box-atuacao" src="{{ asset('imgs/email_icon.svg') }}"></a>
-                <p class="texto-pessoa justify">Cursa o Bacharelado em Design pela Universidade Federal do Rio Grande do Norte.
-                    Pesquisadora e Designer na Base de Pesquisa Escola de Programação do Laboratório de Inovação Tecnológica em Saúde (LAIS)</p>
+                </div>
+                <div class="conteudoEquipe-texto">Cursa o Bacharelado em Design pela Universidade Federal do Rio Grande do Norte.
+                    Pesquisadora e Designer na Base de Pesquisa Escola de Programação do Laboratório de Inovação Tecnológica em Saúde (LAIS)</div>
             </div>
         </div>
-        <!-- Informacoes de Deyvison -->
-        <div class="row">
-            <div class="side">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/deyvison_1.gif') }}" alt="Foto de Deyvison">
-                    <!--<picture>
-                        <source srcset="{{ asset('imgs/equipe/pierre_1.gif') }}" media="(min-width: 1000px)">
-                        <source srcset="{{ asset('imgs/equipe/pierre_2.gif') }}" media="(min-width: 800px)">
-                        <img srcset="{{ asset('imgs/equipe/pierre_3.gif') }}" alt="…">
-                    </picture>-->
+
+
+        <!-- Informações de Deyvison -->
+        <div class="conteudoEquipe">
+            <div class="conteudoEquipe-foto">
+                <picture>
+                    <source srcset="imgs/equipe/pierre-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/pierre-01.png">
+                    <img srcset="imgs/equipe/pierre-01.png" alt="Foto de Pierre">
+                </picture>
             </div>
-            <div class="main">
-                <h4 class="mt-0">Deyvison Silas</h4>
-                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Design</a>
+            <div class="conteudoEquipe-informacoes">
+                <h4 class="conteudoEquipe-nome">Deyvison Silas</h4>
+                <div class="conteudoEquipe-links">
+                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Design </a>
                 <a href="http://lattes.cnpq.br/5138193037942461" class="btn btn-secondary"><img class="img-box-atuacao" src="{{ asset('imgs/Lattes_logo.svg') }}">&nbsp Lattes/DeyvisonSilas</a>
                 <a href="mailto:deyvison_silas@outlook.com" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="deyvison_silas@outlook.com" ><img class="img-box-atuacao" src="{{ asset('imgs/email_icon.svg') }}"></a>
-                <p class="texto-pessoa justify">Aluno na Universidade Federal do Rio Grande do Norte (UFRN); graduando em design. Pesquisador e Designer na Base de Pesquisa Escola de Programação do Laboratório de Inovação Tecnológica em Saúde (LAIS).
+                </div>
+                <div class="conteudoEquipe-texto">Aluno na Universidade Federal do Rio Grande do Norte (UFRN); graduando em design. Pesquisador e Designer na Base de Pesquisa Escola de Programação do Laboratório de Inovação Tecnológica em Saúde (LAIS).
                     O interesse pela criação surgiu ainda durante o ensino médio onde cursou o Open CG na escola de efeitos visuais Gracom; 
-                    Adquirindo conhecimentos técnicos dos programas utilizados no design editorial, desenvolvimento para web, edição e animação.</p>
+                    Adquirindo conhecimentos técnicos dos programas utilizados no design editorial, desenvolvimento para web, edição e animação.</div>
             </div>
         </div>
-        <!-- Informacoes de Cleiton -->
-        <div class="row">
-            <div class="side">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/cleiton_1.gif') }}" alt="Foto de Cleiton">
-                    <!--<picture>
-                        <source srcset="{{ asset('imgs/equipe/pierre_1.gif') }}" media="(min-width: 1000px)">
-                        <source srcset="{{ asset('imgs/equipe/pierre_2.gif') }}" media="(min-width: 800px)">
-                        <img srcset="{{ asset('imgs/equipe/pierre_3.gif') }}" alt="…">
-                    </picture>-->
+
+
+        <!-- Informações de Cleiton -->
+        <div class="conteudoEquipe">
+            <div class="conteudoEquipe-foto">
+                <picture>
+                    <source srcset="imgs/equipe/cleiton-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/cleiton-01.png">
+                    <img srcset="imgs/equipe/cleiton-01.png" alt="Foto de Cleiton">
+                </picture>
             </div>
-            <div class="main">
-                <h4 class="mt-0">Cleiton Lima</h4>
-                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Desenvolvimento</a>
+            <div class="conteudoEquipe-informacoes">
+                <h4 class="conteudoEquipe-nome">Cleiton Lima</h4>
+                <div class="conteudoEquipe-links">
+                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Desenvolvimento </a>
                 <a href="https://github.com/cleiton-lima" class="btn btn-secondary"><img class="img-box-atuacao" src="{{ asset('imgs/Git_logo.svg') }}">&nbsp Github/CleitonLima</a>
                 <a href="mailto:antonio.lima@lais.huol.ufrn.br" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="antonio.lima@lais.huol.ufrn.br" ><img class="img-box-atuacao" src="{{ asset('imgs/email_icon.svg') }}"></a>
-                <p class="texto-pessoa justify">Técnico em Informática pelo Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte (IFRN), campus Pau dos Ferros. 
+                </div>
+                <div class="conteudoEquipe-texto">Técnico em Informática pelo Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte (IFRN), campus Pau dos Ferros. 
                     Graduando do Bacharelado em Tecnologia da Informação pelo Instituto Metrópole Digital (IMD) da Universidade Federal do Rio Grande do Norte (UFRN) e 
                     Pesquisador do Laboratório de Inovação Tecnológica em Saúde (LAIS). 
-                    No LAIS, participa do projeto Escola de Programação atuando como pesquisador e desenvolvedor de sistemas.</p>
+                    No LAIS, participa do projeto Escola de Programação atuando como pesquisador e desenvolvedor de sistemas.</div>
             </div>
         </div>
-        <!-- Informacoes de Gabriel -->
-        <div class="row">
-            <div class="side">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/pierre_1.gif') }}" alt="Generic placeholder image">
-                    <!--<picture>
-                        <source srcset="{{ asset('imgs/equipe/pierre_1.gif') }}" media="(min-width: 1000px)">
-                        <source srcset="{{ asset('imgs/equipe/pierre_2.gif') }}" media="(min-width: 800px)">
-                        <img srcset="{{ asset('imgs/equipe/pierre_3.gif') }}" alt="…">
-                    </picture>-->
+
+
+        <!-- Informações de Gabriel -->
+        <div class="conteudoEquipe">
+            <div class="conteudoEquipe-foto">
+                <picture>
+                    <source srcset="imgs/equipe/gabriel-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/gabriel-01.png">
+                    <img srcset="imgs/equipe/gabriel-01.png" alt="Foto de Gabriel">
+                </picture>
             </div>
-            <div class="main">
-                <h4 class="mt-0">Gabriel Machado</h4>
+            <div class="conteudoEquipe-informacoes">
+                <h4 class="conteudoEquipe-nome">Gabriel Machado</h4>
+                <div class="conteudoEquipe-links">
                 <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Desenvolvimento </a>
                 <a href="https://github.com/gmachado" class="btn btn-secondary"><img class="img-box-atuacao" src="{{ asset('imgs/Git_logo.svg') }}">&nbsp Github/GabrielMachado</a>
                 <a href="mailto:gmachado170@gmail.com" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="gmachado170@gmail.com" ><img class="img-box-atuacao" src="{{ asset('imgs/email_icon.svg') }}"></a>
-                <p class="texto-pessoa justify">Graduando do Bacharelado em Ciências e Tecnologia com ênfase em Engenharia de Materiais (UFRN). 
-                Pesquisador do Laboratório de Inovação Tecnológica em Saúde (LAIS/HUOL/UFRN).</p>
+                </div>
+                <div class="conteudoEquipe-texto">Graduando do Bacharelado em Ciências e Tecnologia com ênfase em Engenharia de Materiais (UFRN). 
+                Pesquisador do Laboratório de Inovação Tecnológica em Saúde (LAIS/HUOL/UFRN).</div>
             </div>
-        </div>        
-        <!-- Informacoes de Hercules -->
-        <div class="row">
-            <div class="side">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/hercules_1.gif') }}" alt="Foto de Hercules">
-                    <!--<picture>
-                        <source srcset="{{ asset('imgs/equipe/pierre_1.gif') }}" media="(min-width: 1000px)">
-                        <source srcset="{{ asset('imgs/equipe/pierre_2.gif') }}" media="(min-width: 800px)">
-                        <img srcset="{{ asset('imgs/equipe/pierre_3.gif') }}" alt="…">
-                    </picture>-->
+        </div>
+
+        <!-- Informações de Hercules -->
+        <div class="conteudoEquipe">
+            <div class="conteudoEquipe-foto">
+            <picture>
+                    <source srcset="imgs/equipe/hercules-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/hercules-01.png">
+                    <img srcset="imgs/equipe/hercules-01.png" alt="Foto de Hercules">
+                </picture>
             </div>
-            <div class="main">
-                <h4 class="mt-0">Hercules Pedrosa</h4>
-                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Desenvolvimento</a>
+            <div class="conteudoEquipe-informacoes">
+                <h4 class="conteudoEquipe-nome">Hercules Pedrosa</h4>
+                <div class="conteudoEquipe-links">
+                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Desenvolvimento </a>
                 <a href="https://github.com/herculespl" class="btn btn-secondary"><img class="img-box-atuacao" src="{{ asset('imgs/Git_logo.svg') }}">&nbsp Github/HerculesPedrosa</a>
                 <a href="mailto:herculespedrosa95@gmail.com" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="herculespedrosa95@gmail.com" ><img class="img-box-atuacao" src="{{ asset('imgs/email_icon.svg') }}"></a>
-                <p class="texto-pessoa justify">Graduando em Engenharia Biomédica (UFRN). Bacharel em Ciências e Tecnologia com ênfase em Tecnologia Biomédica (UFRN). 
+                </div>
+                <div class="conteudoEquipe-texto">Graduando em Engenharia Biomédica (UFRN). Bacharel em Ciências e Tecnologia com ênfase em Tecnologia Biomédica (UFRN). 
                     Pesquisador do Laboratório de Inovação Tecnológica em Saúde (LAIS/HUOL/UFRN). 
-                    Participação do programa Ciências Sem Fronteiras na Trinity College Dublin - Irlanda (2015 - 2016).</p>
+                    Participação do programa Ciências Sem Fronteiras na Trinity College Dublin - Irlanda (2015 - 2016).</div>
             </div>
         </div>
-        <!-- Informacoes de Luca -->
-        <div class="row">
-            <div class="side">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/pierre_1.gif') }}" alt="Foto de Luca">
-                    <!--<picture>
-                        <source srcset="{{ asset('imgs/equipe/pierre_1.gif') }}" media="(min-width: 1000px)">
-                        <source srcset="{{ asset('imgs/equipe/pierre_2.gif') }}" media="(min-width: 800px)">
-                        <img srcset="{{ asset('imgs/equipe/pierre_3.gif') }}" alt="…">
-                    </picture>-->
+
+        <!-- Informações de Luca -->
+        <div class="conteudoEquipe">
+            <div class="conteudoEquipe-foto">
+            <picture>
+                    <source srcset="imgs/equipe/luca-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/luca-01.png">
+                    <img srcset="imgs/equipe/luca-01.png" alt="Foto de Luca">
+                </picture>
             </div>
-            <div class="main">
-                <h4 class="mt-0">Luca Pareja</h4>
+            <div class="conteudoEquipe-informacoes">
+                <h4 class="conteudoEquipe-nome">Luca Pareja</h4>
+                <div class="conteudoEquipe-links">
                 <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Desenvolvimento </a>
-                <a href="https://github.com/pierrefreire" class="btn btn-secondary"><img class="img-box-atuacao" src="{{ asset('imgs/Git_logo.svg') }}">&nbsp Github/LucaPareja</a>
-                <a href="mailto:pierre.freire@lais.huol.ufrn.br" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="pierre.freire@lais.huol.ufrn.br" ><img class="img-box-atuacao" src="{{ asset('imgs/email_icon.svg') }}"></a>
-                <p class="texto-pessoa justify">Graduando do Bacharelado em Ciências e Tecnologia(UFRN). 
-                Pesquisador do Laboratório de Inovação Tecnológica em Saúde (LAIS/HUOL/UFRN).</p>
+                <a href="https://github.com/lucapareja" class="btn btn-secondary"><img class="img-box-atuacao" src="{{ asset('imgs/Git_logo.svg') }}">&nbsp Github/LucaPareja</a>
+                <a href="mailto:lucapareja1337@gmail.com" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="lucapareja1337@gmail.com" ><img class="img-box-atuacao" src="{{ asset('imgs/email_icon.svg') }}"></a>
+                </div>
+                <div class="conteudoEquipe-texto">Graduando do Bacharelado em Ciências e Tecnologia(UFRN). 
+                Pesquisador do Laboratório de Inovação Tecnológica em Saúde (LAIS/HUOL/UFRN).</div>
             </div>
         </div>
-        <!-- Informacoes de Mariana -->
-        <div class="row">
-            <div class="side">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/mariana_1.gif') }}" alt="Foto de Mariana">
-                    <!--<picture>
-                        <source srcset="{{ asset('imgs/equipe/pierre_1.gif') }}" media="(min-width: 1000px)">
-                        <source srcset="{{ asset('imgs/equipe/pierre_2.gif') }}" media="(min-width: 800px)">
-                        <img srcset="{{ asset('imgs/equipe/pierre_3.gif') }}" alt="…">
-                    </picture>-->
+
+        <!-- Informações de Mariana -->
+        <div class="conteudoEquipe">
+            <div class="conteudoEquipe-foto">
+            <picture>
+                    <source srcset="imgs/equipe/mariana-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/mariana-01.png">
+                    <img srcset="imgs/equipe/mariana-01.png" alt="Foto de Mariana">
+                </picture>
             </div>
-            <div class="main">
-                <h4 class="mt-0">Mariana Araújo</h4>
-                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Desenvolvimento</a>
+            <div class="conteudoEquipe-informacoes">
+                <h4 class="conteudoEquipe-nome">Mariana Araújo</h4>
+                <div class="conteudoEquipe-links">
+                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Desenvolvimento </a>
                 <a href="https://github.com/marianaaraujof" class="btn btn-secondary"><img class="img-box-atuacao" src="{{ asset('imgs/Git_logo.svg') }}">&nbsp Github/MarianaAraujo</a>
                 <a href="mailto:mariana.figueiredo@lais.huol.ufrn.br" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="mariana.figueiredo@lais.huol.ufrn.br" ><img class="img-box-atuacao" src="{{ asset('imgs/email_icon.svg') }}"></a>
-                <p class="texto-pessoa justify">Graduanda do Bacharelado em Ciências e Tecnologia com Ênfase em Tecnologia Mecânica (UFRN).
+                </div>
+                <div class="conteudoEquipe-texto">Graduanda do Bacharelado em Ciências e Tecnologia com Ênfase em Tecnologia Mecânica (UFRN).
                     Pesquisadora do Laboratório de Inovação Tecnológica em Saúde (LAIS/HUOL/UFRN). 
-                    Bolsista do suporte da plataforma AVASUS na Secretária de ensino a distancia (SEDIS) - 2016/2017.</p>
+                    Bolsista do suporte da plataforma AVASUS na Secretária de ensino a distancia (SEDIS) - 2016/2017.</div>
             </div>
         </div>
-        <!-- Informacoes de Matheus Coutinho -->
-        <div class="row">
-            <div class="side">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/coutinho_1.gif') }}" alt="Foto de Coutinho">
-                    <!--<picture>
-                        <source srcset="{{ asset('imgs/equipe/pierre_1.gif') }}" media="(min-width: 1000px)">
-                        <source srcset="{{ asset('imgs/equipe/pierre_2.gif') }}" media="(min-width: 800px)">
-                        <img srcset="{{ asset('imgs/equipe/pierre_3.gif') }}" alt="…">
-                    </picture>-->
+
+        <!-- Informações de Coutinho -->
+        <div class="conteudoEquipe">
+            <div class="conteudoEquipe-foto">
+            <picture>
+                    <source srcset="imgs/equipe/coutinho-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/coutinho-01.png">
+                    <img srcset="imgs/equipe/coutinho-01.png" alt="Foto de Matheus Coutinho">
+                </picture>
             </div>
-            <div class="main">
-                <h4 class="mt-0">Matheus Coutinho</h4>
-                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Desenvolvimento</a>
+            <div class="conteudoEquipe-informacoes">
+                <h4 class="conteudoEquipe-nome">Matheus Coutinho</h4>
+                <div class="conteudoEquipe-links">
+                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Desenvolvimento </a>
                 <a href="https://github.com/matheus.ferreira" class="btn btn-secondary"><img class="img-box-atuacao" src="{{ asset('imgs/Git_logo.svg') }}">&nbsp Github/MatheusCoutinho</a>
                 <a href="mailto:matheus.ferreira@lais.huol.ufrn.br" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="matheus.ferreira@lais.huol.ufrn.br" ><img class="img-box-atuacao" src="{{ asset('imgs/email_icon.svg') }}"></a>
-                <p class="texto-pessoa justify">Graduando em Engenharia Mecânica (UFRN). 
+                </div>
+                <div class="conteudoEquipe-texto">Graduando em Engenharia Mecânica (UFRN). 
                     Bacharel em Ciências e Tecnologia com ênfase em Tecnologia Mecânica (UFRN). 
                     Pesquisador do Laboratório de Inovação Tecnológica em Saúde (LAIS) na base da escola de programação.
                     Participante de projetos do LAIS na base da Bioengenharia ligados a modelagem e prototipagem rápida em 3D - 2014. 
-                    Bolsista do suporte da plataforma AVASUS na Secretária de ensino a distancia (SEDIS) - 2015/2017.</p>
+                    Bolsista do suporte da plataforma AVASUS na Secretária de ensino a distancia (SEDIS) - 2015/2017.</div>
             </div>
         </div>
-        <!-- Informacoes de Oliveira -->
-        <div class="row">
-            <div class="side">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/oliveira_1.gif') }}" alt="Foto de Oliveira">
-                    <!--<picture>
-                        <source srcset="{{ asset('imgs/equipe/pierre_1.gif') }}" media="(min-width: 1000px)">
-                        <source srcset="{{ asset('imgs/equipe/pierre_2.gif') }}" media="(min-width: 800px)">
-                        <img srcset="{{ asset('imgs/equipe/pierre_3.gif') }}" alt="…">
-                    </picture>-->
+
+        <!-- Informações de Oliveira -->
+        <div class="conteudoEquipe">
+            <div class="conteudoEquipe-foto">
+                <picture>
+                    <source srcset="imgs/equipe/oliveira-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/oliveira-01.png">
+                    <img srcset="imgs/equipe/oliveira-01.png" alt="Foto de Matheus Oliveira">
+                </picture>
             </div>
-            <div class="main">
-                <h4 class="mt-0">Matheus Oliveira</h4>
-                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Desenvolvimento</a>
+            <div class="conteudoEquipe-informacoes">
+                <h4 class="conteudoEquipe-nome">Matheus Oliveira</h4>
+                <div class="conteudoEquipe-links">
+                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Desenvolvimento </a>
                 <a href="https://github.com/matheusdsoliv" class="btn btn-secondary"><img class="img-box-atuacao" src="{{ asset('imgs/Git_logo.svg') }}">&nbsp Github/MatheusOliveira</a>
                 <a href="mailto:matheus.oliveira@lais.huol.ufrn.br" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="matheus.oliveira@lais.huol.ufrn.br" ><img class="img-box-atuacao" src="{{ asset('imgs/email_icon.svg') }}"></a>
-                <p class="texto-pessoa justify">Graduando em Engenharia Biomédica (UFRN). 
+                </div>
+                <div class="conteudoEquipe-texto">Graduando em Engenharia Biomédica (UFRN). 
                     Bacharel em Ciências e Tecnologia com ênfase em Tecnologia Biomédica (UFRN). 
                     Pesquisador do Laboratório de Inovação Tecnológica em Saúde (LAIS) na base da escola de programação.
                     Cursando a especialização em Engenharia Clínica. 
-                    Participante de projetos do LAIS na base de análise de cargas sobre um fixador externo articulado utilizado para recuperação de fraturas no cotovelo.</p>
+                    Participante de projetos do LAIS na base de análise de cargas sobre um fixador externo articulado utilizado para recuperação de fraturas no cotovelo.</div>
             </div>
         </div>
-        <!-- Informacoes de Paula -->
-        <div class="row">
-            <div class="side">
-                <img class="mr-3 clearfix img-responsive" src="{{ asset('imgs/equipe/paula_1.gif') }}" alt="Generic placeholder image">
-                    <!--<picture>
-                        <source srcset="{{ asset('imgs/equipe/pierre_1.gif') }}" media="(min-width: 1000px)">
-                        <source srcset="{{ asset('imgs/equipe/pierre_2.gif') }}" media="(min-width: 800px)">
-                        <img srcset="{{ asset('imgs/equipe/pierre_3.gif') }}" alt="…">
-                    </picture>-->
+
+        <!-- Informações de Paula -->
+        <div class="conteudoEquipe">
+            <div class="conteudoEquipe-foto">
+                <picture>
+                    <source srcset="imgs/equipe/paula-02.png" media="(max-width: 768px)">
+                    <source srcset="imgs/equipe/paula-01.png">
+                    <img srcset="imgs/equipe/paula-01.png" alt="Foto de Paula">
+                </picture>
             </div>
-            <div class="main">
-                <h4 class="mt-0">Paula Torres</h4>
-                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Desenvolvimento</a>
+            <div class="conteudoEquipe-informacoes">
+                <h4 class="conteudoEquipe-nome">Paula Torres</h4>
+                <div class="conteudoEquipe-links">
+                <a class="btn btn-light"><img class="img-box-atuacao" src="{{ asset('imgs/Curso_icon.svg') }}"> &nbsp Desenvolvimento </a>
                 <a href="https://github.com/torrespaula" class="btn btn-secondary"><img class="img-box-atuacao" src="{{ asset('imgs/Git_logo.svg') }}">&nbsp Github/PaulaTorres</a>
                 <a href="mailto:paula.torres@lais.huol.ufrn.br" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="paula.torres@lais.huol.ufrn.br" ><img class="img-box-atuacao" src="{{ asset('imgs/email_icon.svg') }}"></a>
-                <p class="texto-pessoa justify">Graduando em Engenharia Biomédica (UFRN). 
+                </div>
+                <div class="conteudoEquipe-texto">Graduando em Engenharia Biomédica (UFRN). 
                     Bacharel em Ciências e Tecnologia com ênfase em Tecnologia Biomédica (UFRN). 
-                    Pesquisadora do Laboratório de Inovação Tecnológica em Saúde (LAIS) na base da escola de programação.</p>
+                    Pesquisadora do Laboratório de Inovação Tecnológica em Saúde (LAIS) na base da escola de programação.</div>
             </div>
         </div>
+
     </div>
 
-
-</div>
+</section>
 @endsection

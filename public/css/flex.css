@@ -1,0 +1,42 @@
+.mainHeader{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.LogoEP {
+    display: flex;
+    margin-left: -55%;
+}
+
+.mainArticle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainAside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bgFlex{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mainContainer{
+    display: flex;
+}
+
+.VideoContainer{
+    display: flex;
+    align-self: flex-start;
+    width: 100%;
+
+}

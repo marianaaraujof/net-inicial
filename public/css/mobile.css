@@ -9,7 +9,9 @@
     }
     
     .container {
-		width: 85%;	
+        width: 100%;	
+        margin: 0;
+        padding: 0;
 	}
 
 	.subtitulo {
@@ -18,10 +20,41 @@
     
     .conteudoEquipe {
         flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
+    .conteudoEquipe-informacoes {
+        margin: 0;
+    }
     .conteudoEquipe-links {
         flex-direction: column;
+        height: 120px;
+        width: 100%;
     }
+
+    .rodape-container {
+        flex-direction: column;
+    }
+
+    .rodape-texto .subtitulo {
+        font-size: 15px;
+    }
+
+    .rodape-logos {
+        flex-direction: column;
+    }
+    .logos { 
+        margin: 5%;
+    }
+
+    .text-projetos {
+        font-size: 15px;
+    }
+
+    .conteudoEquipe-texto {
+        font-size: 15px;
+    }
+
 
 }

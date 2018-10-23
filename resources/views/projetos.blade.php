@@ -23,7 +23,7 @@
             <ul class="conteudoPrincipal-projetos">
                 <li class="conteudoPrincipal-projetos-link"><a href="#"> Hera &nbsp <img class="img-box-atuacao" src="{{ asset('imgs/OK_icon.svg') }}"></a></li>
                 <li class="conteudoPrincipal-projetos-link"><a href="#"> Neuroaudiologia &nbsp <img class="img-box-atuacao" src="{{ asset('imgs/Andamento_icon.svg') }}"></a></li>
-                <li class="conteudoPrincipal-projetos-link"><a href="#"> Athena &nbsp <img class="img-box-atuacao" src="{{ asset('imgs/Andamento_icon.svg') }}"></a></li>
+                <li class="conteudoPrincipal-projetos-link"><a href="#"> Atena &nbsp <img class="img-box-atuacao" src="{{ asset('imgs/Andamento_icon.svg') }}"></a></li>
             </ul>
         </nav>
     </div>

@@ -5,9 +5,10 @@
     position: fixed;
 }
 
-.corpreta {
+.estilizaMenuRolagem {
     background-color: black;
     background-image: url('/imgs/estrelas_bg-08.png');
+    animation: all 1s;
 }
 
 .menuPrincipal-container {

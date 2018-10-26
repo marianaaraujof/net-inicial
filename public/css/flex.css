@@ -1,13 +1,33 @@
+.cardFrases-Welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.conteudoFrases-Welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textoFrases-Welcome {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/*
 .mainHeader{
     display: flex;
     justify-content: space-around;
 
 }
 
-.LogoEP {
-    display: flex;
-    margin-left: -55%;
-}
+
 
 .mainArticle {
     display: flex;
@@ -40,3 +60,4 @@
     width: 100%;
 
 }
+*/

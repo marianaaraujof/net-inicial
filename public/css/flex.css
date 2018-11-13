@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 30vw;
 }
 
 .conteudoFrases-Welcome{
@@ -15,8 +14,13 @@
 .textoFrases-Welcome {
     display: flex;
     flex-direction: column;
+    left: 1em;
 }
 
+.tituloPBL{
+    display: flex;
+    justify-content: center;
+}
 
 
 

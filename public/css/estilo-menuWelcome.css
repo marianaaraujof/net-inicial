@@ -1,12 +1,8 @@
 .menuPrincipalWelcome {
     height: 120px; 
     width: auto;
-    background-color: black;
-    background-image: url("/imgs/estrelas_bg-08.png"); 
-    background-position: 0 -300px;
-
+    background: transparent;
 }
-
 .menuPrincipal-container {
     display: flex;
     height: 120px;

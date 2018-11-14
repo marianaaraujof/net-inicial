@@ -6,13 +6,15 @@
   <body>
     <section id="menu">
     @include('templates/menu-preto')
+
     </section>
     <section id="box-geral">
 
       @yield('cfg_section_geral')
-
+      @include('templates/footer')
+      
     </section>
-    @include('templates/footer')
+
   <div id="mask"> </div>
   </body>
 </html>

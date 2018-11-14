@@ -11,7 +11,7 @@
      <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}"> 
 
 
-      <link rel="stylesheet" type="text/css" href="{{ asset('css/reset.css') }}"> 
+      <link rel="stylesheet" type="text/css" href="{{ asset('css/normalize.css') }}"> 
  
      
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css"> 

@@ -189,6 +189,11 @@
     z-index: 1;
 }
 
+.videoArticle video{
+    border-radius: 0.6em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+}
+
 /*
 .videoArticle::after {
     background-image: url("/imgs/nuvem_inicio_bg.png"), no-repeat; 
